@@ -22,24 +22,28 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
       ) : (
         <GoogleLogin onSuccess={handleLogin} onError={(err) => console.log(err)} />
       )}
-      <h1>Good luck on your project :)</h1>
-      <h2> What you need to change in this skeleton</h2>
-      <ul>
-        <li>
-          Change the Frontend CLIENT_ID (Skeleton.js) to your team's CLIENT_ID (obtain this at
-          http://weblab.us/clientid)
-        </li>
-        <li>Change the Server CLIENT_ID to the same CLIENT_ID (auth.js)</li>
-        <li>
-          Change the Database SRV (mongoConnectionURL) for Atlas (server.js). You got this in the
-          MongoDB setup.
-        </li>
-        <li>Change the Database Name for MongoDB to whatever you put in the SRV (server.js)</li>
-      </ul>
-      <h2>How to go from this skeleton to our actual app</h2>
-      <a href="https://docs.google.com/document/d/110JdHAn3Wnp3_AyQLkqH2W8h5oby7OVsYIeHYSiUzRs/edit?usp=sharing">
-        Check out this getting started guide
-      </a>
+     <body>
+      <div class="topnav">
+        <a href="#news">News</a>
+        <a href="#contact">Blog</a>
+        <a href="#about">About</a>
+        <a class="active" href="#home">Home</a>
+      </div> 
+      
+      <h1><center>Vizza</center></h1>
+      <p>
+        <font size="4">
+        <center>Our mission is to enable safe and secure international travel experiences by providing reliable, comprehensive visa information and support. We strive to make visa applications easier and more streamlined, so that people can spend more time enjoying their trips and less time worrying about the paperwork. We believe that visa applications should be accessible and straightforward for all, and offer our resources to ensure that everyone can travel with confidence.</center>
+        </font>
+      </p>
+      <center>
+          <img src = "https://drive.google.com/uc?export=view&id=1lGCcwZAG75nkQjfC6O9PB8814O6Vfz8y"
+          width = "400"
+          height = "267"/>
+      </center>
+      <h1><center> How we help? </center></h1>
+      <p><center> Here I am thinking on add 3 icons that show how users benefit from the website </center></p>
+    </body>
     </GoogleOAuthProvider>
   );
 };
