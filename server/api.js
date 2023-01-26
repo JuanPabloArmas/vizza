@@ -7,8 +7,6 @@
 |
 */
 
-// Que la chupe Armas
-
 const express = require("express");
 
 // import models so we can interact with the database

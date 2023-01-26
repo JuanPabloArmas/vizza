@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { Router } from "@reach/router";
 import jwt_decode from "jwt-decode";
-import Feed from "./pages/Feed.js";
+import Profile from "./pages/Profile"
 
 import NotFound from "./pages/NotFound.js";
 import Skeleton from "./pages/Skeleton.js";
+import NavBar from "./modules/NavBar.js";
 
 import "../utilities.css";
 
 import { socket } from "../client-socket.js";
 
 import { get, post } from "../utilities";
-
 
 /**
  * Define the "App" component
@@ -47,6 +47,7 @@ const App = () => {
     <>
       <Router>
         <Skeleton path="/" handleLogin={handleLogin} handleLogout={handleLogout} userId={userId} />
+        <Profile path="/pages/Profile/"/>
         <NotFound default />
       </Router>
     </>
