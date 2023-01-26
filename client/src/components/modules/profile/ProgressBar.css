@@ -1,0 +1,34 @@
+/* Progress bar container */
+.progress-bar-container {
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+/* Progress bar */
+.progress-bar {
+  background-color: blue;
+  height: 100%;
+  width: 0%;
+}
+
+/* Images container */
+.icons-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Images */
+.icon {
+  width: 33%;
+  filter: brightness(1);
+}
+
+/* Active class */
+.icon.active {
+  filter: brightness(1.5);
+}

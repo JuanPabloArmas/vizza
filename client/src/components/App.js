@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Router } from "@reach/router";
 import jwt_decode from "jwt-decode";
 import Profile from "./pages/Profile"
-import News from "./pages/News"
+//import News from "./pages/News"
 import Feed from "./pages/Feed"
 
 import NotFound from "./pages/NotFound.js";
@@ -51,11 +51,10 @@ const App = () => {
         <Skeleton path="/" handleLogin={handleLogin} handleLogout={handleLogout} userId={userId} />
         <Profile path="/pages/Profile/"/>
         <Feed path="/pages/Feed"/>
-        <News path="/pages/News"/>
         <NotFound default />
       </Router>
     </>
   );
 };
-
+//<News path="/pages/News"/>
 export default App;
