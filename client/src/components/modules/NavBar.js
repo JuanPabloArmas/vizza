@@ -15,10 +15,10 @@ const NavBar = (props) => {
             <Link to="/pages/Profile/" className="NavBar-link"> 
                 Profile
             </Link>
-            <Link to="/News/" className="NavBar-link">
+            <Link to="/pages/Feed" className="NavBar-link">
                 Blog
             </Link>
-            <Link to="/News/" className="NavBar-link">
+            <Link to="/pages/News" className="NavBar-link">
                 Information
             </Link>
         </nav>
