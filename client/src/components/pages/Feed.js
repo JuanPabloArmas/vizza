@@ -16,7 +16,7 @@ const Feed = () => {
         <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
             <NavBar />
             <body>
-                <div> Hi this is Domingo Concha </div>
+                <div> This is the feed </div>
             </body>    
         </GoogleOAuthProvider>
     );

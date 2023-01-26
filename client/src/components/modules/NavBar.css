@@ -4,9 +4,9 @@
   }
   
   .NavBar-title {
-    padding: var(--s) var(--m);
+    padding: var(-s) var(--m);
     color: var(--white);
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .NavBar-linkContainer {

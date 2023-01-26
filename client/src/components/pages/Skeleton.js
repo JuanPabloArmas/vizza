@@ -5,7 +5,6 @@ import "../../utilities.css";
 import "./Skeleton.css";
 import NavBar from "../modules/NavBar";
 
-//TODO: REPLACE WITH YOUR OWN CLIENT_ID
 const GOOGLE_CLIENT_ID = "474140666473-hpqbbndboq5vglsoghl5j07lfqvtlkpt.apps.googleusercontent.com";
 
 const Skeleton = ({ userId, handleLogin, handleLogout }) => {
