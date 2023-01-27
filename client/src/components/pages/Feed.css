@@ -1,0 +1,24 @@
+table {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    color: #FFF;
+    padding: 10px;
+    background-color: #00A5EF;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  td {
+    padding: 8px;
+    color: #818181;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #F5F5F5;
+  }

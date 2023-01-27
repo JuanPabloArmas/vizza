@@ -46,9 +46,9 @@ export const data = [
   
   export function Generate_Chart() {
     return (
-      <Chart
+      <Chart 
         chartType="Line"
-        width="80%"
+        width="100%"
         height="400px"
         data={data}
         options={options}

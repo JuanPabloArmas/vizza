@@ -14,12 +14,13 @@ const New = (props) => {
     return (
     <div>
         <h1> {props.title} </h1>
-        <div> 
+        <div class ="new-square"> 
             <span> {props.content}</span>
             <span> | Read more in {props.link} </span>
-            <span> {props.country} </span>
+            <span> | {props.country} </span>
         </div>
     </div>
-  
-    )
-}
+    );
+};
+
+export default New;

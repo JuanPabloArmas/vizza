@@ -1,0 +1,13 @@
+.news-parent {
+    border: 1px solid white;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+
+.news-child {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }

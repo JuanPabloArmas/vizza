@@ -1,0 +1,8 @@
+.new-square {
+    background-color: #000;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 5px
+}

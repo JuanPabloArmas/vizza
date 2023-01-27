@@ -13,9 +13,8 @@ const UserVisa = new mongoose.Schema({
   embassy: String,
   initial_date: Date,
   initial_status: String,
-  status: String
+  status: String,
 });
-
 
 
 
