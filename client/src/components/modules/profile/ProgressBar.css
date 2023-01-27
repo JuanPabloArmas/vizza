@@ -1,0 +1,37 @@
+.progress-bar {
+  position: relative; /* to position the container absolutely */
+  margin: 20px;
+}
+
+.bar {
+  margin-left: -7px;
+}
+
+.circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(218, 211, 211); /* initial color */
+}
+
+.circle-0 {
+  left: 0%; /* positions circle at 0% */
+  background-image: url('./Request.png');
+  background-size: contain; /* this will ensure the image fits inside the circle */
+  background-repeat: no-repeat; /* this will prevent the image from repeating */
+}
+
+.circle-50 {
+  left: 50%; /* positions circle at 50% */
+}
+
+.circle-100 {
+  left: 100%; /* positions circle at 100% */
+}
+
+
+
+
+
+
