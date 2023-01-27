@@ -6,6 +6,7 @@
 
 import React, { useState, useEffect } from "react";
 import NavBar from "../modules/NavBar";
+import Card from "../modules/feed/Card";
 import { GoogleOAuthProvider, GoogleLogin, googleLogout } from "@react-oauth/google";
 
 const GOOGLE_CLIENT_ID = "474140666473-hpqbbndboq5vglsoghl5j07lfqvtlkpt.apps.googleusercontent.com";
@@ -15,9 +16,7 @@ const Feed = () => {
     return (      
         <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
             <NavBar />
-            <body>
-                <div> This is the feed </div>
-            </body>    
+            <Card />
         </GoogleOAuthProvider>
     );
 };

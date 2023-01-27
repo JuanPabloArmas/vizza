@@ -1,34 +1,37 @@
-/* Progress bar container */
-.progress-bar-container {
-  width: 100%;
-  height: 50px;
-  position: relative;
-}
-
-/* Progress bar */
 .progress-bar {
-  background-color: blue;
-  height: 100%;
-  width: 0%;
+  position: relative; /* to position the container absolutely */
+  margin: 20px;
 }
 
-/* Images container */
-.icons-container {
+.bar {
+  margin-left: -7px;
+}
+
+.circle {
   position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(218, 211, 211); /* initial color */
 }
 
-/* Images */
-.icon {
-  width: 33%;
-  filter: brightness(1);
+.circle-0 {
+  left: 0%; /* positions circle at 0% */
+  background-image: url('./Request.png');
+  background-size: contain; /* this will ensure the image fits inside the circle */
+  background-repeat: no-repeat; /* this will prevent the image from repeating */
 }
 
-/* Active class */
-.icon.active {
-  filter: brightness(1.5);
+.circle-50 {
+  left: 50%; /* positions circle at 50% */
 }
+
+.circle-100 {
+  left: 100%; /* positions circle at 100% */
+}
+
+
+
+
+
+

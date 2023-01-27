@@ -16,7 +16,7 @@ const Profile = ({userId}) => {
     return(
         <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
             <NavBar />
-            <ProgressBar max={100} />
+            <ProgressBar/>
         </GoogleOAuthProvider>
     );
 };

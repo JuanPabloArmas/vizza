@@ -43,6 +43,27 @@ router.post("/initsocket", (req, res) => {
 // | write your API methods below!|
 // |------------------------------|
 
+export const getComments = async() => {
+  return [
+    {
+      id: "1",
+      body: "First Comment",
+      username: "Jack",
+      userId: "1",
+      parentId: null,
+      createdAt: "2021-08-16T23:00:33.011+02:00"
+    },
+    {
+      id: "2",
+      body: "Second comment",
+      username: "Kelly",
+      userId: "2",
+      parentId: null,
+      createdAt: "2021-08-17T23:00:33.011+02:00"
+    }
+  ]
+}
+
 // anything else falls to this "not found" case
 router.all("*", (req, res) => {
   console.log(`API route not found: ${req.method} ${req.url}`);
